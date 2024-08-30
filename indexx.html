@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curso de Libras Educa+ para promover a inclusão e comunicação eficaz entre surdos e ouvintes.">
+    <title>Acessibilidade Educa+</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a0dad, #000); /* Gradiente roxo e preto */
+            color: #fff;
+        }
+        .header {
+            background-color: #6a0dad; /* Roxo */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #fff; /* Linha branca para contraste */
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .header .slogan {
+            font-size: 1.4em;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .header .slogan i {
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+        .nav {
+            background-color: #000; /* Preto */
+            color: #fff;
+            overflow: hidden;
+            border-bottom: 2px solid #6a0dad; /* Linha roxa para contraste */
+        }
+        .nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            background-color: #6a0dad; /* Roxo */
+        }
+        .content {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6); /* Fundo preto com opacidade */
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .content h2 {
+            font-size: 2em;
+            color: #6a0dad; /* Roxo */
+        }
+        .content p {
+            font-size: 1.2em;
+        }
+        .content .video-container {
+            margin: 20px 0;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+        }
+        .content iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .footer {
+            background-color: #6a0dad; /* Roxo */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border-top: 2px solid #fff; /* Linha branca para contraste */
+        }
+        .button {
+            background-color: #6a0dad; /* Roxo */
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            display: inline-block;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #5a0c9d; /* Roxo Escuro */
+        }
+        .activity-box {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff; /* Fundo branco */
+            border-radius: 5px;
+            border: 1px solid #6a0dad; /* Roxo */
+            color: #000; /* Texto preto para contraste */
+        }
+        .activity-box h3 {
+            font-size: 1.5em;
+            color: #6a0dad; /* Roxo */
+        }
+        .activity-box p {
+            margin: 10px 0;
+        }
+        .activity-box textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .activity-box input[type="submit"] {
+            background-color: #6a0dad; /* Roxo */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .activity-box input[type="submit"]:hover {
+            background-color: #5a0c9d; /* Roxo Escuro */
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            font-size: 1.2em;
+        }
+        .contact-info a {
+            color: #6a0dad; /* Roxo */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .nav a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+            .header h1 {
+                font-size: 2em;
+            }
+            .content h2 {
+                font-size: 1.5em;
+            }
+            .content p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Acessibilidade+</h1>
+        <p class="slogan">
+            <i class="fas fa-universal-access" title="Acessibilidade"></i>
+            Transformando a Comunicação e Inclusão
+            <i class="fas fa-wheelchair" title="Pessoa com deficiência"></i>
+            <i class="fas fa-deaf" title="Pessoa surda"></i>
+        </p>
+    </div>
+
+    <div class="nav">
+        <a href="#aba1">Introdução ao Curso</a>
+        <a href="#aba2">Introdução à Libras</a>
+        <a href="#aba3">Alfabeto e Números</a>
+        <a href="#aba4">Frases Básicas</a>
+        <a href="#aba5">Conversação Avançada</a>
+        <a href="#aba6">Conclusão</a>
+    </div>
+
+    <div id="aba1" class="content">
+        <h2>Introdução ao Curso de Libras Acessibilidade+</h2>
+        <p>Bem-vindo ao Curso de Libras! A Língua Brasileira de Sinais (Libras) é um dos principais meios de comunicação para a comunidade surda no Brasil. Este curso visa proporcionar uma compreensão sólida e prática desta língua rica e única, promovendo a inclusão e a comunicação eficaz entre pessoas surdas e ouvintes.</p>
+        <p>Por que aprender Libras? A Libras é uma língua completa e estruturada com sua própria gramática e vocabulário. Ao aprender Libras, você estará contribuindo para a construção de uma sociedade mais inclusiva e acessível.</p>
+        <p>Nosso curso é dividido em módulos, cada um focado em aspectos essenciais da Libras, garantindo que você adquira o conhecimento necessário para se comunicar de forma eficiente e respeitosa com a comunidade surda.</p>
+        <a href="#aba2" class="button">Próxima Fase</a>
+    </div>
+
+    <div id="aba2" class="content">
+        <h2>Introdução à Libras</h2>
+        <p>A Língua Brasileira de Sinais (Libras) é uma língua de sinal utilizada pela comunidade surda no Brasil. Assim como qualquer língua, Libras é uma forma rica e complexa de comunicação, com sua própria gramática, vocabulário e expressões culturais. Neste módulo, você aprenderá sobre a importância da Libras e seu papel na promoção da inclusão.</p>
+        <p>Assista ao Vídeo de Introdução:</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/Vszmxi_d3QY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>Direitos autorais: Unítese.</p>
+        <div class="activity-box">
+            <h3>Atividade do Módulo 2</h3>
+            <p>1. O que caracteriza a Libras como uma língua de sinal?</p>
+            <p>2. Descreva a importância da Libras para a comunicação entre surdos e ouvintes.</p>
+            <p>3. Quais são os principais aspectos culturais associados à Libras?</p>
+            <p>4. Explique como a Libras pode promover a inclusão social.</p>
+            <p>5. Cite dois desafios enfrentados pela comunidade surda na comunicação e como a Libras pode ajudar a superá-los.</p>
+            <form action="mailto:acessibilidademais8@gmail.com" method="post" enctype="text/plain">
+                <textarea name="activity" rows="6" placeholder="Digite suas respostas aqui..."></textarea><br>
+                <input type="submit" value="Enviar Atividade">
+            </form>
+        </div>
+        <a href="#aba3" class="button">Próxima Fase</a>
+    </div>
+
+    <div id="aba3" class="content">
+        <h2>Alfabeto e Números em Libras</h2>
+        <p>A base de qualquer língua é seu alfabeto e seus números, e com a Língua Brasileira de Sinais (Libras) não é diferente. Neste módulo, você aprenderá a sinalizar letras e números, que são fundamentais para a formação de palavras e frases. O domínio desses sinais é essencial para iniciar a comunicação em Libras.</p>
+        <p>Assista ao Vídeo de Alfabeto e Números em Libras:</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/sntDyFlilGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>Direitos autorais: Academia de Libras</p>
+        <div class="activity-box">
+            <h3>Atividade do Módulo 3</h3>
+            <p>1. Sinalize todas as letras do alfabeto em Libras.</p>
+            <p>2. Sinalize os números de 0 a 10 em Libras.</p>
+            <p>3. Crie cinco palavras utilizando o alfabeto em Libras e descreva como elas são sinalizadas.</p>
+            <p>4. Elabore uma frase simples usando números em Libras e explique seu significado.</p>
+            <p>5. Como o conhecimento do alfabeto e dos números pode ajudar na comunicação em Libras?</p>
+            <form action="mailto:acessibilidademais8@gmail.com" method="post" enctype="text/plain">
+                <textarea name="activity" rows="6" placeholder="Digite suas respostas aqui..."></textarea><br>
+                <input type="submit" value="Enviar Atividade">
+            </form>
+        </div>
+        <a href="#aba4" class="button">Próxima Fase</a>
+    </div>
+
+    <div id="aba4" class="content">
+        <h2>Frases Básicas em Libras</h2>
+        <p>Dominar frases básicas em Libras é fundamental para começar a se comunicar de maneira eficaz no dia a dia. Neste módulo, você aprenderá sinais e estruturas simples que lhe permitirão realizar conversas básicas e interagir em situações cotidianas.</p>
+        <p>Assista ao Vídeo de Frases Básicas em Libras:</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/OiKH_hMM_Es" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>Direitos autorais: Academia de Libras</p>
+        <div class="activity-box">
+            <h3>Atividade do Módulo 4</h3>
+            <p>1. Liste cinco frases básicas em Libras e descreva o significado de cada uma.</p>
+            <p>2. Crie uma conversa simulada utilizando essas frases básicas.</p>
+            <p>3. Explique a importância de aprender frases básicas para a comunicação em Libras.</p>
+            <p>4. Qual é a diferença entre uma frase simples e uma frase complexa em Libras?</p>
+            <p>5. Como você pode melhorar sua fluência em Libras com base neste módulo?</p>
+            <form action="mailto:acessibilidademais8@gmail.com" method="post" enctype="text/plain">
+                <textarea name="activity" rows="6" placeholder="Digite suas respostas aqui..."></textarea><br>
+                <input type="submit" value="Enviar Atividade">
+            </form>
+        </div>
+        <a href="#aba5" class="button">Próxima Fase</a>
+    </div>
+
+    <div id="aba5" class="content">
+        <h2>Conversação Avançada em Libras</h2>
+        <p>Este módulo é dedicado ao aprimoramento das suas habilidades de conversação em Libras. Vamos explorar técnicas e sinais mais complexos que ajudarão você a se comunicar de maneira mais eficaz em situações diversas.</p>
+        <p>Assista ao Vídeo de Conversação Avançada em Libras:</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/T2wzABxJwF4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>Direitos autorais: Instituto de Libras</p>
+        <div class="activity-box">
+            <h3>Atividade do Módulo 5</h3>
+            <p>1. Descreva um cenário em que a conversação avançada em Libras seria crucial.</p>
+            <p>2. Explique como as técnicas avançadas podem melhorar a comunicação em situações complexas.</p>
+            <p>3. Crie uma simulação de conversa avançada em Libras e descreva os sinais utilizados.</p>
+            <p>4. Quais são os desafios da conversação avançada em Libras?</p>
+            <p>5. Como você pode aplicar o que aprendeu neste módulo em sua prática de Libras?</p>
+            <form action="mailto:acessibilidademais8@gmail.com" method="post" enctype="text/plain">
+                <textarea name="activity" rows="6" placeholder="Digite suas respostas aqui..."></textarea><br>
+                <input type="submit" value="Enviar Atividade">
+            </form>
+        </div>
+        <a href="#aba6" class="button">Próxima Fase</a>
+    </div>
+
+    <div id="aba6" class="content">
+        <h2>Conclusão do Curso</h2>
+        <p>Parabéns por completar o Curso de Libras Acessibilidade+! Esperamos que você tenha adquirido um conhecimento sólido e prático sobre a Língua Brasileira de Sinais. A inclusão e a comunicação são essenciais para uma sociedade mais justa e acessível.</p>
+        <p>Se você tiver dúvidas ou precisar de mais informações, não hesite em entrar em contato conosco.</p>
+        <div class="contact-info">
+            <p><strong>Contato:</strong></p>
+            <p><a href="mailto:acessibilidademais8@gmail.com">Email: acessibilidademais8@gmail.com</a></p>
+            <p>Telefone: (34) 99708-6180</p>
+            <p>Instagram: <a href="https://www.instagram.com/acessibilidademais" target="_blank">@acessibilidademais</a></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Acessibilidade Educa+. Todos os direitos reservados.</p>
+    </div>
+
+</body>
+</html>
